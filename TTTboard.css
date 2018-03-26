@@ -1,0 +1,23 @@
+h1 {
+	text-align: center;
+}
+
+.main-table {
+	border-width: 0px;
+	margin: 20px auto;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+}
+
+td:nth-of-type(2n) {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+tr:nth-of-type(2n) td {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
